@@ -1,0 +1,305 @@
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+a:link{
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+body,h1,h2,h3,h4,h5,ul {font-family: "Raleway", sans-serif}
+main,footer{
+    zoom: 150%;
+    }
+    
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+    }
+
+    nav {
+        background: #25221E;
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    
+    nav li {
+        display: inline;
+    
+    }
+    
+    nav a {
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        color: #C78C19;
+        text-decoration: underline;
+    }
+    body{
+        transition: background-image 1s ease;
+        font-family: sans-serif;
+        background-image: url(images/bg-01.jpg);
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: 120%;
+    }
+    main{
+        text-align: center;
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-bottom: 3%;
+    }
+    .margins{
+        margin-top: 3%;
+    }
+    
+    label {
+        font-size: 20px;
+        padding-bottom: 20px;
+        display: block;
+    }
+    
+    .input-padrao {
+        display: table-row;
+        margin-bottom: 20px;
+        font-size: 18px;
+        border-color:transparent;
+        border-bottom-color: rgb(166, 166, 166);
+        height: 30px;
+        text-align: center;
+        background-color: transparent;
+    }
+    
+    textarea:focus, input:focus{
+        outline: none;
+    }
+    
+    .checkbox {
+        margin: 20px 0;
+    }
+    
+    button {
+        width: 	50%;
+        padding: 15px 0;
+        background: orange;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background  0.5s;
+    }
+    
+    button:hover {
+        
+        background: darkorange;
+    }
+
+    button{
+        margin-bottom: 	20px;
+    }
+    .red { 
+        background-color: red; 
+        margin-left: 50%; 
+        height: 100px; 
+    } 
+    .yellow { 
+        margin-left: 50%; 
+        height: 100px; 
+        background-color: yellow; 
+    }
+    td{
+        padding: 10%;
+        text-align: center;
+    }
+    .w3-card-4{
+        border-radius: 5px;
+    }
+    .miau{
+        padding: 5%;
+        border-radius: 5px;
+    }
+    .swal2-styled.swal2-confirm {
+        width: 100%;
+    }
+    .swal2-container.swal2-center>.swal2-popup {
+        grid-column: 2;
+        grid-row: 2;
+        align-self: center;
+        justify-self: center;
+    }
+    .swal2-styled.swal2-deny {
+        border: 0;
+        border-radius: 0.25em;
+        background: initial;
+        background-color: #dc3741;
+        color: #fff;
+        font-size: 1em;
+        width: 100%;
+    }
+    .my-actions { margin: 0 2em; }
+.order-1 { order: 1; }
+.order-2 { order: 2; }
+.order-3 { order: 3; }
+
+.right-gap {
+  margin-right: auto;
+}
+
+
+ /* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }   
+  
+  .titulo{
+    color:rgb(255, 255, 255);
+    transition: background-color 0.5s ease;
+  }
+  .dark-mode h1{
+    color:#dddddd;
+    transition: color 0.5s ease;
+  }
+  div.miau{
+    background-color: white;
+    transition: background-color 0.5s ease;
+  }
+  .dark-mode div.miau{
+    background-color: #25221E;
+    color: #dddddd;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+  }
+  .dark-mode input{
+    color: #fff;
+    transition: background-color 0.5s ease;
+  }
+  .dark-mode ::placeholder{
+    color:rgb(215, 215, 215);
+    transition: background-color 0.5s ease;
+  }
+ .dark-mode div.swal2-popup{
+    background-color: #25221E;
+    color: #fff;
+    transition: background-color 0.5s ease;
+ }
+body.dark-mode{
+    background-image: url(images/bg-02.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: 120%;
+  }
+
+  .dark-mode button {
+    background: #7066e0;
+    color: #dddddd;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode button:hover {
+    
+    background: #574eb7;
+}
+.remove{
+  font-weight: 600;
+}
+.remove:hover{
+  text-decoration: underline;
+}
+@media all and (max-width: 1024px)
+{   
+    html{
+        width: 1024px;
+    }
+}

@@ -1,0 +1,281 @@
+@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+@font-face {font-family: "SoDo Sans SemiBold"; src: url("//db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.eot"); src: url("//db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.svg#SoDo Sans SemiBold") format("svg"); }
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: default;
+    background-color: rgb(16, 27, 38);
+    font-family: SoDo Sans SemiBold;
+    color:white;
+}
+  
+.head{
+    background-color: rgb(16, 27, 38);
+    display: flex;
+    padding: 1.5% 20%;
+    border-style: solid;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-width: 1px;
+    border-color: #32495f;
+    position: fixed;
+    top: 0;
+}
+.body{
+    display: flex;
+    padding: 10% 20% 0% 20%;
+}
+.left{
+    text-align: left;
+    align-content: left;
+    width: 50%;
+}
+.right{
+    text-align: right;
+    align-content: right;
+    width: 50%;
+}
+.logo{
+    width: 30%;
+}
+.miau{
+    width: 5%;
+    float: right;
+    padding-left: 5%;
+}
+ul{
+    padding: 0% 20%;
+}
+li{
+    display: inline;
+    padding-right: 3%;
+}
+a{
+    text-decoration: none;
+    color:white;
+    transition: color .3s ease,background-color ease;
+    font-size: 1.1rem;
+    vertical-align:middle;
+}
+.links{
+    margin-left: 2%;
+}
+.regardless{
+    line-height: 40px;
+}
+a:hover{
+    color:rgb(107, 179, 255);
+}
+.active{
+    color:rgb(107, 179, 255);
+    margin-left: 2%;
+}
+select{
+    color:white;
+    font-family: SoDo Sans SemiBold;
+    background-color: black;
+    margin-left: 2%;
+    padding: .5% 1%;
+    border-radius: 7px
+}
+h1{
+    font-size: 480%;
+    line-height: 100%;
+}
+.pt{
+    font-size: 430%!important;
+}
+h2{
+    font-size: 360%;
+    line-height: 100%;
+}
+.noPadding{
+    margin:0px!important;
+    padding-bottom: 2%;
+}
+h3{
+    font-family: arial;
+    font-size: 2rem;
+}
+h4{
+    color: rgb(179, 179, 179);
+}
+h5{
+    font-size: 1.1rem;
+    color: rgb(179, 179, 179);
+}
+.grey{
+    color: rgb(179, 179, 179);
+}
+.isa{
+    width: 75%;
+}
+.left2{
+    text-align: left;
+    align-content: left;
+    width: 50%;
+    padding-top: 1%;
+    line-height: 150%;
+}
+button{
+    font-family: inherit;
+    font-size: 1.2rem;
+    padding: 2% 3%;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(222, 137, 25);
+    transition: background-color .3s ease;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(176, 109, 21);
+}
+table{
+    background-color: rgb(10, 14, 17);
+    padding: 2%;
+    font-size: 1.5rem;
+    width: 200%;
+    display: table;
+    border-collapse: collapse;
+}
+
+    
+th{
+    display: block;
+    text-align: 
+    center;
+    padding: 3% 3%;
+}
+td{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 3% 3%;
+}
+.img{
+    padding-bottom: 0rem;
+}
+.faminto{
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: color .3s,background-color .4s ease;
+}
+.faminto:hover{
+    color:rgb(107, 179, 255);
+    background-color: rgb(6, 9, 10);
+}
+.portfolio,.contact,.skills{
+    display: flex;
+    padding: 7% 20% 4% 20%;
+}
+.skillset{
+    width: 100%;
+}
+.fire{
+    zoom: 30%;
+}
+caption{
+    text-align: left;
+    font-size: 56px;
+}
+
+.footer{
+    height: 5rem;
+    padding: 0%;
+}
+.socials{
+    display: inline-block;
+    background-color: rgb(10, 14, 17);
+    font-size: 26px;
+    width: 100%;
+    
+}
+.socialText{
+    cursor: pointer;
+    transition: .3s ease;
+    width: 10px;
+    padding-left: 20%;
+}
+.socialText:hover{
+    cursor: pointer;
+    color:rgb(107, 179, 255);
+    text-decoration: underline;
+}
+iframe{
+    padding-bottom: 20%;
+}
+@media all and (max-width: 1024px)
+{   
+    html{
+        width: 1024px;
+    }
+    .head{
+        padding: 5% 10%;
+    }
+    .logo{
+        width: 50%;
+    }
+    .links,.active,select{
+        font-size: 22px;
+    }
+    .right{
+        zoom: 150%;
+    }
+    .isa{
+        display: flex;
+        padding-top: 50%;
+        width: 100%;
+    }
+    .footer{
+        width: 140%;
+        height: 50%;
+    }
+    .body,.skills,.portfolio,.contact{
+        zoom: 150%;
+        width: 110%;
+        padding: 7% 15%;
+    }
+    .body{
+        padding-top: 20%;
+    }
+    h1{
+        display: flex;
+        width: 100%;
+    }
+    h4{
+        font-size: 22px;
+    }
+    h3{
+        line-height: 100%;
+    }
+    .socialText{
+        font-size: 40px;
+        padding-left: 12%;
+    }
+    button{
+        font-size: 29px;
+        padding: 4% 5%;
+        margin-top: 8%;
+        border-radius: 15px;
+    }
+    select{
+        padding: 1% 2%;
+    }
+    a{
+        font-size: 36px;
+    }
+    ul{
+        padding: 0% 15%;
+    }
+}
